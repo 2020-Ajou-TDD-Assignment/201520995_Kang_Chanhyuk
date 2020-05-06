@@ -33,7 +33,7 @@ public class BowlingGameTest {
         assertEquals(20, g.score());
 
     }
-    @Ignore
+
     @Test
     public void testOneSpare() {
         g.roll(5);
